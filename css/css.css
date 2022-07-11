@@ -66,9 +66,9 @@ img {
 /*Hiro start*/
 .hiro {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   position: relative;
-  background: url(../img/svar_background_otr.jpg) no-repeat center;
+  background: url(../img/svar_background_otr_opacity.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
