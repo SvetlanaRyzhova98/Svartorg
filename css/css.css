@@ -98,10 +98,10 @@ img {
   font-size: 13px;
   color: var(--blue);
 }
-.header__link-display{
+.header__link-display {
   display: block;
 }
-.header__link-displaynone{
+.header__link-displaynone {
   display: none;
 }
 /*Hiro start*/
@@ -319,15 +319,13 @@ img {
   }
   .header__link_cont.header__link_cont-mobile {
     display: block;
-    font-size: 25px;
+    font-size: 20px;
   }
-  .hiro__desc {
-    font-size: 18px;
-    line-height: 25px;
-  }
+ 
   .hiro__desc {
     margin-bottom: 40px;
     font-size: 18px;
+    line-height: 25px;
   }
   .hiro__box {
     padding: 0 30px;
@@ -366,6 +364,66 @@ img {
   .title-section {
     font-size: 22px;
     line-height: 22px;
-    padding-left: 110px;
-  }
+    padding-left: 0;
+    background-size: 0;
+    color: var(--blue);
 }
+
+  .title-box {
+    margin-bottom: 30px;
+  }
+  .hiro__title {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .hiro__desc {
+    margin-bottom: 40px;
+    font-size: 15px;
+  }
+
+  .hiro__decor {
+    width: 200px;
+  }
+  .header__link-display {
+    display: none;
+  }
+  .header__link-displaynone {
+    display: block;
+    font-size: 20px;
+  }
+  .header__list {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .category__link {
+    font-size: 18px;
+  }
+  .category__link.category__acces {
+    margin-left: 30px;
+  }
+  .cards.services {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .box-footer {
+    padding: 30px 10px;
+}
+section {
+  margin-bottom: 50px;
+}
+.cards.instrumental {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+}
+
+@media all and (max-height: 400px) {
+.hiro__title {
+  font-size: 43px;
+  line-height: 47px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}}
