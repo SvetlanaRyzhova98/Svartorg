@@ -129,14 +129,13 @@ img {
 /*Hiro start*/
 .location {
   margin-top: 15px;
-  font-weight: bold;
+  /* font-weight: bold; */
   display: flex;
   gap: 10px;
   width: max-content;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 25px;
   flex-direction: column;
-  align-items: end;
 }
 /* .location span {
   text-decoration: underline;
@@ -148,6 +147,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 5px;
 }
 .location-city li:hover {
   color: var(--blue);

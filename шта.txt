@@ -9,6 +9,10 @@
 Аргонодуговая сварка
 
 
+карта тимашевск <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.677939322686!2d38.93106271556251!3d45.61711567910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e5557193b3a867%3A0xfae990e67bf4b844!2z0J_RgNC-0LvQtdGC0LDRgNGB0LrQsNGPINGD0LsuLCAxMDYsINCi0LjQvNCw0YjQtdCy0YHQuiwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1MjcwMA!5e0!3m2!1sru!2sru!4v1661801725992!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+цемдолина <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22667.877855960654!2d37.69531640761967!3d44.75052811231769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1fe8f47aaffb5%3A0x9f1e1228971bc6b0!2z0KbQtdC80LTQvtC70LjQvdCwLCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuQ!5e0!3m2!1sru!2sru!4v1661801775970!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 
 https://www.svarbi.ru/cat/svarochnyj-invertor/5564/ - Аппараты ручной дуговой сварки 
 Сварочный инвертор БАРСВЕЛД Profi ARC-207 D (220 В)
