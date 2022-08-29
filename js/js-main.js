@@ -16,7 +16,7 @@
   (function () {
     const artclick = document.querySelector(".articles");
     artclick.addEventListener("click", () => {
-      window.open("/article.html")
+      window.open("/Svartorg/article.html")
     
       });  
     })();
