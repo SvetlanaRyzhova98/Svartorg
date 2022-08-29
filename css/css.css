@@ -34,8 +34,10 @@ a {
   text-decoration: none;
   color: white;
 }
-a:active, a:focus, a:hover{
-  outline-style: none!important;
+a:active,
+a:focus,
+a:hover {
+  outline-style: none !important;
 }
 img {
   max-width: 100%;
@@ -47,10 +49,10 @@ img {
 .blue-text {
   color: var(--blue) !important;
 }
-.visible{
+.visible {
   visibility: hidden;
 }
-.rotate180{
+.rotate180 {
   transition: 0.5s all;
   transform: rotate(180deg);
 }
@@ -363,7 +365,6 @@ img {
     grid-template-columns: 1fr;
   }
   .header__list {
-   
     gap: 0px;
   }
   .header__link_cont {
@@ -471,12 +472,56 @@ img {
   }
 }
 
-@media all and (max-height: 400px) {
+@media all and (max-height: 500px) {
   .hiro__title {
-    font-size: 43px;
-    line-height: 47px;
+    font-size: 36px;
+    line-height: 36px;
     letter-spacing: 0.5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 600;
   }
+  .location {
+    margin-top: 15px;
+    /* font-weight: bold; */
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    font-size: 18px;
+    line-height: 20px;
+    flex-direction: column;
+  }
+  .hiro__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media all and (max-height: 500px) {
+  .hiro__desc {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .hiro__title {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .location {
+    font-size: 17px;
+    line-height: 17px;
+  }
+}
+@media all and (max-height: 400px) {
+  .hiro__title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .location {
+    margin-top: 10px;
+    gap: 5px;}
+    .location-city {
+      flex-direction: row; 
+      gap: 16px;
+      margin-top: 5px;}
+      .hiro__desc {
+        font-size: 15px;}
 }
