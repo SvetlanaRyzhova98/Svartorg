@@ -1,8 +1,12 @@
+@import url(./reset.css);
 @import url(./footer.css);
+@import url(./servise.css);
+@import url(./articles.css);
 
 html {
   box-sizing: border-box;
 }
+
 body {
   color: white;
   font-family: "Exo 2", sans-serif;
@@ -13,10 +17,15 @@ body {
   --blue: #359acbf7;
   --blue2: #308ab6;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+header {
+  top: 0;
 }
 section {
   margin-bottom: 100px;
@@ -70,14 +79,15 @@ img {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
-  padding-right: 25px;
+  /* //padding-right: 25px; */
   color: white;
 }
 .header__link:hover,
 .header__link:active,
 .header__link:focus {
-  color: rgba(0, 0, 0, 0.966);
+  color: var(--blue);
   transition: 0.4s linear;
+  outline-style: none;
 }
 .header__logo {
   margin-right: auto;
@@ -90,9 +100,11 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: end;
+  gap: 25px;
 }
 .header__contact {
   display: flex;
+  gap: 15px;
 }
 .header__link.header__link_cont {
   font-size: 13px;
@@ -105,12 +117,34 @@ img {
   display: none;
 }
 /*Hiro start*/
+.location {
+  margin-top: 15px;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  font-size: 21px;
+  line-height: 25px;
+  flex-direction: column;
+  align-items: end;
+}
+.location span {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.location-city {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .hiro {
   width: 100%;
   height: 100vh;
   max-height: 1800px;
   position: relative;
-  background: url(../img/svar2_background.jpg) no-repeat center center;
+  background: url(../img/svar2_background1.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -310,9 +344,14 @@ img {
   }
   img {
     max-height: 300px;
+    min-width: 125px;
   }
   .cards.acsess {
     grid-template-columns: 1fr;
+  }
+  .header__list {
+   
+    gap: 0px;
   }
   .header__link_cont {
     display: none;
@@ -321,7 +360,7 @@ img {
     display: block;
     font-size: 20px;
   }
- 
+
   .hiro__desc {
     margin-bottom: 40px;
     font-size: 18px;
@@ -367,7 +406,7 @@ img {
     padding-left: 0;
     background-size: 0;
     color: var(--blue);
-}
+  }
 
   .title-box {
     margin-bottom: 30px;
@@ -409,21 +448,22 @@ img {
   }
   .box-footer {
     padding: 30px 10px;
-}
-section {
-  margin-bottom: 50px;
-}
-.cards.instrumental {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .cards.instrumental {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media all and (max-height: 400px) {
-.hiro__title {
-  font-size: 43px;
-  line-height: 47px;
-  letter-spacing: 0.5px;
-  margin-bottom: 20px;
-  font-weight: 600;
-}}
+  .hiro__title {
+    font-size: 43px;
+    line-height: 47px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+}

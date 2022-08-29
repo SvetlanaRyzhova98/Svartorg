@@ -46,6 +46,7 @@
   text-transform: uppercase;
   display: block;
   /* white-space: nowrap; */
+  min-height: 40px;
   font-weight: 600;
 }
 .article__img.article__img_less {
