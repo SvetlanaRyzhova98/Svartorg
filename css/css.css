@@ -470,6 +470,10 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+  .location {
+    gap: 10px;
+    font-size: 15px;
+    line-height: 16px;}
 }
 
 @media all and (max-height: 500px) {
