@@ -34,6 +34,9 @@ a {
   text-decoration: none;
   color: white;
 }
+a:active, a:focus, a:hover{
+  outline-style: none!important;
+}
 img {
   max-width: 100%;
   height: auto;
