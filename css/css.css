@@ -47,6 +47,13 @@ img {
 .blue-text {
   color: var(--blue) !important;
 }
+.visible{
+  visibility: hidden;
+}
+.rotate180{
+  transition: 0.5s all;
+  transform: rotate(180deg);
+}
 
 /*header*/
 .icon {
@@ -131,16 +138,19 @@ img {
   flex-direction: column;
   align-items: end;
 }
-.location span {
+/* .location span {
   text-decoration: underline;
   text-underline-position: under;
-}
+} */
 .location-city {
   list-style: none;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.location-city li:hover {
+  color: var(--blue);
 }
 .hiro {
   width: 100%;
