@@ -2,6 +2,7 @@
 @import url(./footer.css);
 @import url(./servise.css);
 @import url(./articles.css);
+@import url(./catalog.css);
 
 html {
   box-sizing: border-box;
@@ -16,6 +17,7 @@ body {
   --orange: #fd953c;
   --blue: #359acbf7;
   --blue2: #308ab6;
+  --grey-light: #c9ced0bb;
 }
 
 *,
@@ -288,7 +290,9 @@ img {
   max-width: 350px;
   min-width: 100px;
 }
-
+.card:hover, .card:focus, .card:active{
+  transform: scale(1.0);
+}
 .card__desc {
   position: absolute;
   max-width: 255px;
