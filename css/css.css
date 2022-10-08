@@ -289,9 +289,13 @@ img {
   position: relative;
   max-width: 350px;
   min-width: 100px;
+  filter: grayscale(100%);
+  transition: 0.5s all;
 }
 .card:hover, .card:focus, .card:active{
   transform: scale(1.0);
+  filter: grayscale(0%);
+
 }
 .card__desc {
   position: absolute;
