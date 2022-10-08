@@ -161,7 +161,7 @@ img {
   height: 100vh;
   max-height: 1800px;
   position: relative;
-  background: url(../img/svar2_background1.jpg) no-repeat center center;
+  background: url(../img/фон/black-bg1.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
