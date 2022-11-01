@@ -97,7 +97,7 @@
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.3s linear;
-
+overflow: hidden;
   border-radius: 20px;
   border: 1px solid grey;
 }
@@ -251,3 +251,7 @@ tbody:hover tr:hover td {
   text-shadow: 0 1px 0 #fff;
 }
  */
+ @media all and (max-width: 500px) {
+  .filter-btn {
+    padding: 5px 12px;}
+ }
