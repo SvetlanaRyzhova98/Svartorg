@@ -1,5 +1,21 @@
+.breadcrumbs{
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.breadcrumbs li a{
+  color: rgba(34,41,51,0.6);
+  margin: 0 5px;
+  font-style: italic;
+}
+.breadcrumbs span {
+  font-style: italic;
+   color: rgba(34, 41, 51, 0.6);
+}
+
 .filters{
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: start;
 }  
