@@ -267,6 +267,10 @@ tbody:hover tr:hover td {
   text-shadow: 0 1px 0 #fff;
 }
  */
+
+ /*------------------------------- benzo--------------------------------------------------------------------------------- */
+
+
  @media all and (max-width: 500px) {
   .filter-btn {
     padding: 5px 12px;}
