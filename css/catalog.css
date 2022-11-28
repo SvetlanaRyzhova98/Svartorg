@@ -17,6 +17,8 @@
 .filters{
   margin-top: 20px;
   display: flex;
+  gap: 10px;
+    flex-wrap: wrap;
   justify-content: start;
 }  
 .filter-btn{
@@ -100,15 +102,9 @@
 }
 .card-item {
   margin: 0px auto;
-  /* min-width: 200px; */
-  /* min-height: 365px; */
-  /* max-width: 300px; */
   perspective: 400px;
-  /* width: 100%; */
-  /* height: 330px; */
-  /* height: 100%; */
+  width: 100%;
   z-index: 73;
-  /* padding: 1px;*/
 }
 
 .card {
@@ -120,15 +116,23 @@
   border: 1px solid grey;
   background: white;
 }
-.card-item:hover .card {
+.card-item:hover img {
+  transform: scale(1.05);
+}
+.card-item:hover {
+  cursor: pointer;
+}
+
+.card-item-hover .card {
   transform: rotateY(180deg);
 }
-.card-item:hover .front {
+.card-item-hover .front {
   display: none;
 }
-.card-item:hover .back {
+.card-item-hover .back {
   display: block;
 }
+
 .front {
   display: flex;
   flex-direction: column;
@@ -139,13 +143,14 @@
   backface-visibility: hidden;
   border-radius: 20px;
   padding: 15px;
-  height: 330px;
+  /* height: 330px; */
   /* height: 100%; */
 }
 
 .card img {
   width: 100%;
   border-radius: 20px;
+  object-fit: contain;
 }
 .back {
   display: none;
@@ -159,7 +164,7 @@
   padding: 15px;
   /* min-height: 365px; */
   overflow: hidden;
-  height: 330px;
+  /* height: 330px; */
 }
 
 strong {

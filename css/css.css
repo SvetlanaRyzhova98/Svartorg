@@ -292,11 +292,11 @@ img {
   position: relative;
   max-width: 350px;
   min-width: 100px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: 0.5s all;
 }
-.card-category:hover, .card-category:focus, .card-category:active{
-  transform: scale(1.0);
+.card-category:hover img, .card-category:focus img, .card-category:active img{
+  transform: scale(1.03);
   filter: grayscale(0%);
 
 }
