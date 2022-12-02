@@ -157,6 +157,10 @@ img {
 }
 .location-city li:hover {
   color: var(--blue);
+  cursor: pointer;
+}
+.location-select:hover{
+  cursor: pointer;
 }
 .hiro {
   width: 100%;
@@ -339,9 +343,17 @@ img {
   .wrapper {
     padding: 0 30px;
   }
-  .header__logo {
+  .header__logo img{
     display: none;
   }
+  .header__logo{
+    height: 100%;
+    width: 100%;
+    background: url(../img/svg/logo_short-white.svg) center no-repeat;
+    background-size: contain;
+    max-width: 80px;
+    margin: 0;
+   }
   .cards.instrumental {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
